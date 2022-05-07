@@ -1,0 +1,118 @@
+.majorContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 18px;
+    padding-top: 40px;
+    gap: 28px;
+    box-sizing: border-box;
+    width: 270px;
+    height: 270px;
+    border-radius: 12px;
+    background-color: white;
+    transition-duration: 0.1s;
+    box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.329);
+    z-index: 5;
+    margin-top: 15px;
+}
+
+.majorContainer:hover {
+    transform: scale(1.01);
+    box-shadow: 7px 7px 7px 0px rgba(0, 0, 0, 0.158);
+    z-index: 5;
+}
+
+.nameHolder {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    box-sizing: border-box;
+    gap: 6px;
+    padding: 0px 5px;
+    width: 100%;
+    height: 40px;
+    color: #F87000;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+.nameHolder p {
+    margin: 0px;
+    color: rgba(0, 0, 0, 0.596);
+    text-decoration: none;
+}
+
+.nameHolder p>a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.596);
+    font-weight: 600;
+}
+
+.buttonCtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.buttonCtn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    width: 30%;
+    height: 35px;
+    background-color: #F2F2F2;
+}
+
+.buttonCtn button:hover {
+    cursor: pointer;
+    background-color: #F87000;
+    color: white !important;
+    transition-duration: 0.3s;
+}
+
+.AddContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 270px;
+    height: 270px;
+    border-radius: 12px;
+    background-color: white;
+    transition-duration: 0.1s;
+    box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.329);
+    font-size: 60px;
+    color: #F87000;
+    z-index: 5;
+    margin-top: 15px;
+}
+
+.AddContainer p {
+    font-size: 18px;
+}
+
+.AddContainer:hover {
+    transform: scale(1.06);
+    box-shadow: 7px 7px 7px 0px rgba(0, 0, 0, 0.158);
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 90%;
+    font-size: 16px;
+    text-decoration: none;
+}

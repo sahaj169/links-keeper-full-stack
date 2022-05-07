@@ -5,8 +5,6 @@ import { MdOutlinePersonOutline } from "react-icons/md";
 import { AiOutlineMail } from "react-icons/ai";
 
 function Login() {
-  // const username = localStorage.getItem("Username")
-  // const Name = localStorage.getItem("name")
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const Login = (e) => {
